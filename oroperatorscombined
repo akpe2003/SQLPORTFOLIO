@@ -1,0 +1,2 @@
+SQL Statement that selects all customers where city is "Berlin", OR CustomerName starts with the letter "G" OR Country is "Norway"
+SELECT * FROM Customers WHERE City='Berlin' OR CustomerName LIKE 'G%' OR Country='Norway';
