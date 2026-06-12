@@ -1,0 +1,3 @@
+Sort the ProductName column in alphabetical order
+SELECT * FROM Products ORDER BY ProductName ASC;
+SELECT * FROM Products ORDER BY ProductName DESC;
