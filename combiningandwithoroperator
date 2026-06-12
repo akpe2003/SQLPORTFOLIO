@@ -1,0 +1,3 @@
+Another combination but this time we are combining AND with the OR operator such that country is 'Spain' and name like 'g' or 'r'.
+SELECT * FROM Customers WHERE Country='Spain'AND (CustomerName LIKE 'G%' OR  CustomerName LIKE 'R%');
+SELECT * FROM Customers WHERE Country='Spain'AND (CustomerName LIKE 'G%' OR CustomerName LIKE 'R%');
