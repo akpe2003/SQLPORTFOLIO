@@ -1,0 +1,2 @@
+This time the WHERE Clause is included and so let's see what happemns
+SELECT ProductName,Price FROM Products WHERE Price>0 ORDER BY PRICE ASC LIMIT 5;
