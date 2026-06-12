@@ -1,0 +1,2 @@
+Another demonstration of the use of the NOT operator
+SELECT * FROM Customers WHERE NOT Country='Spain';
