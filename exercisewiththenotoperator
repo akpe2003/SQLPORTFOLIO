@@ -1,0 +1,3 @@
+An exercise with the NOT OPERATOR <>| !=
+SELECT * FROM Customers WHERE Country !='Spain';
+SELECT * FROM Customers WHERE Country <>'Spain';
