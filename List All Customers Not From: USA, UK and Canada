@@ -1,0 +1,9 @@
+List All Customers Not From: USA, UK and Canada.
+SELECT * FROM Customers WHERE Country NOT IN ("USA","UK","Canada");
+SELECT *
+FROM Customers
+WHERE Country NOT IN ('USA', 'UK', 'Canada');
+
+SELECT CustomerName, Country
+FROM Customers
+WHERE Country NOT IN ('USA', 'UK', 'Canada');
