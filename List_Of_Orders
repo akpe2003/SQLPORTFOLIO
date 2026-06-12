@@ -1,0 +1,6 @@
+List All Orders handled by EmployeeID=5 IN 1997?
+SELECT OrderID, YEAR(OrderDate) FROM Orders WHERE EmployeeID=5 AND YEAR(OrderDate)="1997";
+SELECT OrderID, YEAR(OrderDate) AS OrderYear
+FROM Orders
+WHERE EmployeeID = 5
+AND YEAR(OrderDate) = 1997;
