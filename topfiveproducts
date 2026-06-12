@@ -1,0 +1,3 @@
+Selecting the top 5 products based on price
+SELECT ProductName,Price FROM PRODUCTS WHERE Price>5 ORDER BY Price DESC;
+SELECT ProductName,Price FROM PRODUCTS WHERE Price>5 ORDER BY Price DESC LIMIT 5;
