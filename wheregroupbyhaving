@@ -1,0 +1,7 @@
+Find distinct countries where customers live, but only those with more than 5 customers(combine WHERE, GROUP BY AND HAVING)
+SELECT DISTINCT Country, Count(*) AS Number_Of_Customers FROM Customers GROUP BY Country HAVING Number_Of_Customers>5;
+ SELECT DISTINCT Country AS Country, COUNT(*) AS Number_Of_Customers FROM Customers GROUP BY Country HAVING Number_Of_Customers>5;
+SELECT Country, COUNT(*) AS Number_Of_Customers
+    -> FROM Customers
+    -> GROUP BY Country
+    -> HAVING COUNT(*) > 5;
