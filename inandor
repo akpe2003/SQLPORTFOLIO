@@ -1,0 +1,3 @@
+SELECT CustomerName,Country FROM Customers WHERE Country="Mexico" OR Country="Germany";
+SELECT * FROM Customers WHERE Country IN ("Mexico","Germany");
+SELECT CustomerName,Country FROM Customers WHERE Country IN ("Mexico","Germany");
