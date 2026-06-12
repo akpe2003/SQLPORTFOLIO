@@ -1,0 +1,4 @@
+ORDER BY Multiple Columns
+SELECT * FROM Products ORDER BY ProductName,Price;
+SELECT * FROM Customers ORDER BY CustomerName,Country;
+SELECT * FROM Customers ORDER BY Country,CustomerName;
