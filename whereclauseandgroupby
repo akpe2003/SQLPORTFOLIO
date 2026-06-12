@@ -1,0 +1,1 @@
+SELECT EmployeeID, COUNT(DISTINCT CustomerID) Number_Of_Orders FROM Orders GROUP BY EmployeeID ORDER BY Number_Of_Orders ASC;
