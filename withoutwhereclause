@@ -1,0 +1,2 @@
+Another top 5 products without the use of the WHERE clause
+SELECT ProductName,Price FROM PRODUCTS ORDER BY Price DESC LIMIT 5;
