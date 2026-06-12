@@ -1,0 +1,2 @@
+Combining ascending order and descending order in one statement
+ SELECT * FROM Customers ORDER BY Country ASC, CustomerName DESC;
