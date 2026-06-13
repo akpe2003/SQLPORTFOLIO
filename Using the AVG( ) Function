@@ -1,0 +1,10 @@
+Finding the average price of all products:
+SELECT AVG(Price) FROM Products;# Taking the average price
+SELECT AVG(Price) FROM Products WHERE CategoryID=1;
+SELECT AVG(Price)
+FROM Products
+WHERE CategoryID = 1;
+SELECT AVG(Price) FROM Products WHERE CategoryID=2;
+SELECT AVG(Price) AS Average_Price FROM Products WHERE CategoryID=2;
+SELECT * FROM Products WHERE Price > (SELECT AVG(Price) FROM Products); #The use of a sub query
+SELECT AVG(Price) AS AveragePrice , CategoryID FROM Products GROUP BY CategoryID;
