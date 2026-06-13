@@ -1,0 +1,2 @@
+SELECT * FROM OrderDetails;
+SELECT SUM(Quantity) AS Total_Quantity_Of_Products FROM OrderDetails;
