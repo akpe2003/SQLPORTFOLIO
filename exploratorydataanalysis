@@ -1,0 +1,2 @@
+Exploratory Data Analysis
+SELECT * FROM Customers WHERE Country="UK" AND NOT City="London";
