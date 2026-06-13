@@ -1,0 +1,7 @@
+SELECT * FROM Products;
+SELECT COUNT(*) FROM Products;
+SELECT * FROM Products;
+SELECT COUNT(*) FROM Products;
+SELECT COUNT(ProductName) FROM Products;
+SELECT COUNT(ProductName) AS Total_Number_Of_Products FROM Products;
+SELECT COUNT(DISTINCT Price) FROM Products;
