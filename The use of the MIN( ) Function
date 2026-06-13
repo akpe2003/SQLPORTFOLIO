@@ -1,0 +1,7 @@
+SELECT MAX(Price) FROM Products; #This gives the Maximum price from the Products table
+SELECT MAX(Price) AS HighestPrice FROM Products;# Here we denote the highest prie with an alias
+SELECT MAX(BirthDate) AS LatestBirthdate FROM Employees;
+SELECT * FROM Products;
+SELECT MAX(Price) AS HighestPrice, CategoryID
+FROM Products
+GROUP BY CategoryID;
