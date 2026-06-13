@@ -1,0 +1,2 @@
+UPDATE Customers SET CustomerName="OBAMA BARRACK HUSSEIN", ContactName="JOSEPH BIDEN" WHERE CustomerID=93;
+SELECT * FROM Customers;
