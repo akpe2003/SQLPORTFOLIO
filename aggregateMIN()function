@@ -1,0 +1,4 @@
+Exercise involving Aggregate Functions and dealing with the MIN()
+SELECT MIN(Price) FROM Products;
+SELECT MAX(Price) FROM Products;
+SELECT MAX(Price) AS Maximum_Price FROM Products;
