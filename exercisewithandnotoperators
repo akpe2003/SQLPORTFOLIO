@@ -1,0 +1,3 @@
+SELECT * FROM Customers WHERE Country="UK" AND NOT City="London";
+SELECT * FROM Customers WHERE NOT City="London";
+SELECT * FROM Customers WHERE Country="UK";
