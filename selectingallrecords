@@ -1,0 +1,2 @@
+SELECT * FROM Customers WHERE Address IS NOT NULL;
+SELECT * FROM Customers WHERE Address IS NULL;
