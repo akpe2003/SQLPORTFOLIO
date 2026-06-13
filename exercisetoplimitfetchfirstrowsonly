@@ -1,0 +1,19 @@
+Exercise demonstrating the use of SQL Server,MS Access, MySQL and Oracle
+
+SELECT TOP number|Percent Column_name(s)
+FROM table_name
+WHERE condition; This is for SQL Server/MS ACCESS
+
+MySQL,POSTgreSQL
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+LIMIT number;
+
+SELECT column_name(s)
+FROM table_name
+ORDER BY column_name(s)
+FETCH FIRST number ROWS ONLY
+
+SELECT * FROM Customers LIMIT 3;
+SELECT * FROM Customers FETCH FIRST 3 ROWS ONLY;
