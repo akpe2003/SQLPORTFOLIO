@@ -1,0 +1,9 @@
+SELECT CustomerID AS ID, CustomerName AS Customer
+FROM Customers;
+#Aliasing is easy but you must understand the database engine that you are using very well. Now in MySQL, this comman works well:
+SELECT CustomerName AS "Name Of Customer",ContactName AS "Name Of Contact" FROM Customers WHERE CustomerID BETWEEN 1 AND 80;
+In a bid to concatenate the entire address this is the command i came up with
+SELECT CustomerName, CONCAT(Address,',',PostalCode,',',City,',',Country) AS ADDRESS FROM Customers;
+This doesn't work so well though:
+SELECT CustomerName, Address + ', ' + PostalCode + ' ' + City + ', ' + Country AS Address
+FROM Customers;
