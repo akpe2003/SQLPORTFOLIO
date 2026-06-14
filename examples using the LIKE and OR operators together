@@ -1,0 +1,30 @@
+#Here we are looking for customers in cities that have names ending with "on"
+SELECT * 
+FROM Customers
+WHERE City LIKE '%on';
+#Here we are looking for customers in cities that have "on" or "an" appearing in their names anywhere in the city name
+SELECT CustomerName, City
+FROM Customers
+WHERE City LIKE '%on%'
+   OR City LIKE '%an%';
+#Here we are looking for customers in citie with city names either ending with "on" or starting with "To"
+SELECT CustomerName, City
+FROM Customers
+WHERE City LIKE '%on'
+   OR City LIKE 'To%';
+#other examples include
+SELECT * 
+FROM Customers
+WHERE City LIKE '%on%';
+
+SELECT CustomerName, City
+FROM Customers
+WHERE City LIKE '%on%';
+
+SELECT * 
+FROM Customers
+WHERE city LIKE '%on%';
+
+#To add sorting to it, we use
+ORDER BY City ASC;
+
