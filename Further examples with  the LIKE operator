@@ -1,0 +1,20 @@
+Match cities with “on” anywhere:
+WHERE City LIKE '%on%'
+Match cities ending with “on”:
+WHERE City LIKE '%on'
+Match cities where the third letter is “n”:
+WHERE City LIKE '__n%'
+Match cities starting with “L” and exactly 5 letters long:
+WHERE City LIKE 'L____'
+Cities where the second letter is “o”
+SELECT CustomerName, City
+FROM Customers
+WHERE City LIKE '_o%';
+Cities with exactly 5 letters, starting with “T”
+SELECT CustomerName, City
+FROM Customers
+WHERE City LIKE 'T____';
+Cities ending with “n” and having 6 letters
+SELECT CustomerName, City
+FROM Customers
+WHERE City LIKE '_____n';
