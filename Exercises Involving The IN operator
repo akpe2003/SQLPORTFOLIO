@@ -1,0 +1,15 @@
+SELECT * FROM Customers WHERE Country IN ("Argentina","Brazil","Spain");
+SELECT * FROM Customers
+WHERE Country IN ('Germany', 'France', 'UK');
+#The IN operator serves as a shorthand for multiple OR conditions
+#This line of code produces the same result though but longer code
+SELECT * FROM Customers
+WHERE Country = 'Germany' OR Country = 'France' OR Country = 'UK';
+#Also
+SELECT * FROM Customers WHERE Country='Argentina' OR Country='Brazil' OR Country='Spain';
+Below demonstrates the use of NOT IN operator
+SELECT * FROM Customers WHERE Country NOT IN ("Germany","France","UK");
+#Here in this next one we apply the IN operator to a sub query
+SELECT * FROM Customers WHERE CustomerID IN (SELECT CustomerID FROM Orders);
+SELECT * FROM Customers WHERE PostalCode='N/A';
+SELECT * FROM Customers WHERE CustomerID NOT IN (SELECT CustomerID FROM Orders);
