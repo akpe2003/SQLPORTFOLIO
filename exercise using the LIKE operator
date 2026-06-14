@@ -1,0 +1,5 @@
+SELECT * FROM Customers WHERE CustomerName LIKE 'a%';
+now there's a difference between the output you get when handling the first query and the second query
+SELECT * FROM Customers WHERE CustomerName LIKE '%a%';
+SELECT * FROM Customers WHERE City LIKE '%on%';
+SELECT * FROM Customers WHERE City LIKE 'on%';
