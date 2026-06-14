@@ -1,0 +1,9 @@
+# A few  INNER joins
+ SELECT ProductID,ProductName,CategoryName,Description
+    -> FROM Products
+    -> INNER JOIN Categories
+    -> ON Products.CategoryID=Categories.CategoryID;
+ SELECT ProductID,ProductName,CategoryName
+    -> FROM Products
+    -> INNER JOIN Categories
+    -> ON Products.CategoryID=Categories.CategoryID;
