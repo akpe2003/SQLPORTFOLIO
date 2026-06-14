@@ -1,0 +1,12 @@
+SELECT * FROM Products WHERE Price BETWEEN 10 AND 20;
+SELECT * FROM Products WHERE Price NOT BETWEEN 10 AND 20;
+SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20
+AND CategoryID IN (1,2,3);
+SELECT * FROM Products WHERE Price BETWEEN 10 AND 20 AND CategoryID IN (1,2,3);
+The BETWEEN Operator works well with numbers, strings and data types
+SELECT ProductName FROM Products WHERE ProductName BETWEEN 'Geitost' AND 'Louisiana Hot Spiced Okra' ORDER BY ProductName;
+SELECT * FROM Products
+WHERE ProductName NOT BETWEEN 'Geitost' AND 'Louisiana Hot Spiced Okra'
+ORDER BY ProductName;
+ SELECT * FROM Orders WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
