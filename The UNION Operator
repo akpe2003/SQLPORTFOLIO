@@ -1,0 +1,25 @@
+SELECT Country FROM Customers
+    -> UNION
+    -> SELECT Country FROM Suppliers
+    -> ORDER BY Country;
+	
+
+SELECT ContactName,Address,City,PostalCode,Country FROM Customers
+    -> UNION
+    -> SELECT ContactName,Address,City,PostalCode,Country FROM Suppliers
+    -> ORDER BY ContactName;
+
+
+SELECT City, Country FROM Customers
+    -> WHERE Country='Germany'
+    -> UNION
+    -> SELECT City, Country FROM Suppliers
+    -> WHERE Country='Germany'
+    -> ORDER BY City;	
+	
+	
+SELECT 'Customer' AS Type, ContactName, City, Country
+FROM Customers
+UNION
+SELECT 'Supplier', ContactName, City, Country
+FROM Suppliers;
