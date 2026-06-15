@@ -1,0 +1,15 @@
+SELECT COUNT(*) AS "Number Of Customers From Germany" FROM Customers WHERE Country='Germany';
+
+ SELECT Country, COUNT(*) AS NumberOfCustomers
+    -> FROM Customers
+    -> GROUP BY Country
+    -> ORDER BY NumberOfCustomers ASC;
+
+ SELECT Country, COUNT(*) AS NumberOfCustomers
+    -> FROM Customers
+    -> GROUP BY Country
+    -> ORDER BY NumberOfCustomers DESC;
+
+SELECT Country,COUNT(CustomerID) AS 'Number Of Customers'
+    -> FROM Customers
+    -> GROUP BY Country;
