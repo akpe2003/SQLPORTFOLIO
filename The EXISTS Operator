@@ -1,0 +1,14 @@
+SELECT SupplierName
+    -> FROM Suppliers
+    -> WHERE EXISTS (
+    ->   SELECT ProductName
+    ->   FROM Products
+    ->   WHERE Price = 22
+    -> );
+
+SELECT SupplierName
+    -> FROM Suppliers
+    -> WHERE EXISTS(
+    -> SELECT ProductName
+    -> FROM Products
+    -> WHERE Products.SupplierID=Suppliers.SupplierID AND Price<10);
