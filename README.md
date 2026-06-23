@@ -5,9 +5,7 @@ A collection of SQL projects, queries, and case studies showcasing database desi
 Welcome to **SQLPORTFOLIO** — a curated collection of SQL projects and queries that highlight skills in database management, data analysis, and performance optimization.
 
 ## 📂 Contents
-- **Database Design**: ER diagrams, schema creation, normalization examples.
 - **SQL Queries**: Real-world queries for data retrieval, aggregation, and reporting.
-- **Case Studies**: Problem-solving examples using SQL for analytics and business insights.
 - **Optimization**: Indexing, query tuning, and performance improvements.
 
 ## 🚀 Purpose
